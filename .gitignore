@@ -74,3 +74,14 @@ unity_batch_log.txt
 
 # --- Nested local git repos (avoid accidental submodule noise) ---
 backend/vr-proj/.git/
+
+# --- Optional imported Unity assets ---
+Avatar_Transfer_MikeCarter/
+Assets/Free Furniture Set/
+Assets/Polytope Studio/
+Assets/UI button pack 2/
+Assets/*.[Jj][Pp][Gg]
+Assets/*.[Jj][Pp][Ee][Gg]
+Assets/*.[Pp][Nn][Gg]
+Assets/*.[Mm][Pp]3
+Assets/*.[Ww][Aa][Vv]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Meta Quest builds use IL2CPP; unmanaged / reflection-heavy assemblies can be over-stripped so DB sign-in fails on device while Windows Editor succeeds.
+-->
+<linker>
+  <assembly fullname="Npgsql" preserve="all" />
+  <assembly fullname="System.Data" preserve="all" />
+  <assembly fullname="System.Net.Http" preserve="all" />
+  <assembly fullname="System.Net.Security" preserve="all" />
+  <assembly fullname="System.Security" preserve="all" />
+  <assembly fullname="System.Threading.Tasks.Extensions" preserve="all" />
+  <assembly fullname="Microsoft.Bcl.AsyncInterfaces" preserve="all" />
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="QuestDatabaseTest" preserve="all" />
+    <type fullname="QuestTcpDatabaseReachTest" preserve="all" />
+    <type fullname="TmpCredentialFieldUtility" preserve="all" />
+    <type fullname="TmpAuthCredentialMirror" preserve="all" />
+    <type fullname="AuthSubmitPointerCapture" preserve="all" />
+    <type fullname="OnScreenRuntimeLogOverlay" preserve="all" />
+    <type fullname="AuthCredentialDiagnosticReport" preserve="all" />
+    <type fullname="AuthFlowTrace" preserve="all" />
+    <type fullname="AuthApiRuntimeConfig" preserve="all" />
+  </assembly>
+</linker>
