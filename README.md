@@ -157,6 +157,10 @@ Suggested values: min 1.5 m, max 2.0 m, preferred 1.7 m from player.
 ## License
 MIT (or specify your preferred license)
 
+## Demo
+
+[Watch the VR-ASSM demo](https://drive.google.com/file/d/15r2cvSMlZoMrrAn15B5cuwvsXKSKp9MR/view?usp=drive_link)
+
 ## Credits
 - ElevenLabs (ConvAI voice agent)
 - Aiven (PostgreSQL)
